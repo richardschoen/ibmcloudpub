@@ -63,9 +63,10 @@ CALL PGM(QSYS/QAENGCHG) PARM((*ENABLECI))
 CALL PGM(QSYS/QAENGCHG) PARM((*DISABLE)) 
 ```
 ## Links
-IBM Power Virtual Server CLI version 1.7.0 for IBM data center   
+- IBM Power Virtual Server CLI version 1.7.0 for IBM data center   
 https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-cli-reference-v1  
 
-
+- Configuring IBM i Cloud   
+https://www.ibm.com/docs/en/powervc/2.0.3?topic=init-installing-configuring-cloud-i   
 
 
