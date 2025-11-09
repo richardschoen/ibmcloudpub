@@ -37,10 +37,10 @@ After getting the list resilts, the ```Name``` is used when creating an instance
 ```
 ibmcloud pi storage-tiers
 ```
-```tier0```    active   Tier 0 (25 IOPs/GB)
-```tier1```    active   Tier 1 (10 IOPs/GB)
-```tier3```    active   Tier 3 (3 IOPs/GB)
-```tier5k```   active   Fixed IOPs (5,000 IOPs)
+```tier0```    active   Tier 0 (25 IOPs/GB)   
+```tier1```    active   Tier 1 (10 IOPs/GB)   
+```tier3```    active   Tier 3 (3 IOPs/GB)   
+```tier5k```   active   Fixed IOPs (5,000 IOPs)    
 
 ## List instances
 ```
