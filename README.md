@@ -42,14 +42,15 @@ ibmcloud pi storage-tiers
 ```tier3```    active   Tier 3 (3 IOPs/GB)   
 ```tier5k```   active   Fixed IOPs (5,000 IOPs)    
 
-## List instances
+## List server instances  
 ```
 ibmcloud pi instance list
 ```
+The ID, Name and Parh are returned. The ```ID``` will be used when listing a specific instance. 
 
 ## List specific instance details by id
 ```
-ibmcloud pi instance get mobitest-1 b0c0a6b6-b595-4e0a-af70-3dbb180ba6c6
+ibmcloud pi instance get a3c0a6b6-b595-4e0a-af70-3dbb180ba6c6
 ```
 
 ## Enable CI on the instance before shutdown and creating a boot image   
@@ -61,4 +62,10 @@ CALL PGM(QSYS/QAENGCHG) PARM((*ENABLECI))
 ```
 CALL PGM(QSYS/QAENGCHG) PARM((*DISABLE)) 
 ```
+## Links
+IBM Power Virtual Server CLI version 1.7.0 for IBM data center   
+https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-cli-reference-v1  
+
+
+
 
