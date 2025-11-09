@@ -1,7 +1,8 @@
 # Useful scripts and info for working with IBM Power Virtual Server
 
-## Creating a cloud enabled image from the cloud CLI   
+## Creating a cloud enabled image from the Power Cloud CLI   
 This command line will create a new IBM i V7R5 instance in the IBM i cloud.   
+This is a shared uncapped image on an s922 Power 9 machine using 0.25 CPU with 8gb ram. Using the 3 iops disk.   
 ```
 ibmcloud pi ins create ibmiinstance-1 
 --image IBMi-75-06-2924-1 
